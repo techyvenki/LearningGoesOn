@@ -1,0 +1,66 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 warn package.json Codekata@0.0.1 No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ 'D:\\Code_WarRoom',
+7 verbose install   [ 'mongoose',
+7 verbose install     'morgan',
+7 verbose install     'body-parser',
+7 verbose install     'method-override',
+7 verbose install     'karma',
+7 verbose install     'karma-jasmine',
+7 verbose install     'karma-phantomjs-launcher',
+7 verbose install     'bower' ] ]
+8 info preinstall Codekata@0.0.1
+9 warn package.json karma-phantomjs-launcher@0.1.4 No README data
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping mongoose@~3.8.13 D:\Code_WarRoom
+12 verbose already installed skipping morgan@~1.1.1 D:\Code_WarRoom
+13 verbose already installed skipping body-parser@~1.4.3 D:\Code_WarRoom
+14 verbose already installed skipping method-override@~2.1.1 D:\Code_WarRoom
+15 verbose already installed skipping karma@0.12.16 D:\Code_WarRoom
+16 verbose already installed skipping karma-jasmine@0.1.5 D:\Code_WarRoom
+17 verbose already installed skipping karma-phantomjs-launcher@0.1.4 D:\Code_WarRoom
+18 verbose already installed skipping bower@1.2.6 D:\Code_WarRoom
+19 silly resolved []
+20 info build D:\Code_WarRoom
+21 verbose linkStuff [ false, false, false, 'D:\\' ]
+22 info linkStuff Codekata@0.0.1
+23 verbose linkBins Codekata@0.0.1
+24 verbose linkMans Codekata@0.0.1
+25 verbose rebuildBundles Codekata@0.0.1
+26 verbose rebuildBundles [ '.bin',
+26 verbose rebuildBundles   'body-parser',
+26 verbose rebuildBundles   'bower',
+26 verbose rebuildBundles   'karma',
+26 verbose rebuildBundles   'karma-jasmine',
+26 verbose rebuildBundles   'karma-phantomjs-launcher',
+26 verbose rebuildBundles   'method-override',
+26 verbose rebuildBundles   'mongoose',
+26 verbose rebuildBundles   'morgan' ]
+27 info install Codekata@0.0.1
+28 info postinstall Codekata@0.0.1
+29 verbose unsafe-perm in lifecycle true
+30 info Codekata@0.0.1 Failed to exec postinstall script
+31 error Codekata@0.0.1 postinstall: `node node_modules/bower/bin/bower install`
+31 error Exit status 1
+32 error Failed at the Codekata@0.0.1 postinstall script.
+32 error This is most likely a problem with the Codekata package,
+32 error not with npm itself.
+32 error Tell the author that this fails on your system:
+32 error     node node_modules/bower/bin/bower install
+32 error You can get their info via:
+32 error     npm owner ls Codekata
+32 error There is likely additional logging output above.
+33 error System Windows_NT 6.1.7601
+34 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+35 error cwd D:\Code_WarRoom
+36 error node -v v0.10.36
+37 error npm -v 1.4.28
+38 error code ELIFECYCLE
+39 verbose exit [ 1, true ]
